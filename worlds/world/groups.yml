@@ -15,8 +15,7 @@ groups:
     inheritance:
     - g:recruit
     info:
-      build: false
-      prefix: ''
+      prefix: '[recruit]'
       suffix: ''
 
   user:
@@ -26,8 +25,7 @@ groups:
     - g:user
     - recruit
     info:
-      build: true
-      prefix: '&e'
+      prefix: '&e[user]'
       suffix: ''
 
   builder:
@@ -37,8 +35,7 @@ groups:
     - g:builder
     - user
     info:
-      build: true
-      prefix: '&2'
+      prefix: '&2[builder]'
       suffix: ''
 
   manager:
@@ -48,8 +45,7 @@ groups:
     - g:manager
     - builder
     info:
-      build: true
-      prefix: '&5'
+      prefix: '&5[manager]'
       suffix: ''
 
   owner:
@@ -58,7 +54,6 @@ groups:
     inheritance:
     - g:owner
     info:
-      build: true
-      prefix: '&4'
+      prefix: '&4[owner]'
       suffix: ''
 

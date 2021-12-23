@@ -1,12 +1,12 @@
 users:
   756bad49-fbdc-4399-99f1-5578ecbddea2:
     lastname: Owowll
-    group: manager
+    group: user
     subgroups: []
     permissions: []
   d584b21a-f2aa-4e62-afe4-a21eb0f3d028:
     lastname: SuRang_Volkov
-    group: owner
+    group: user
     subgroups: []
     permissions: []
   ElgarL:

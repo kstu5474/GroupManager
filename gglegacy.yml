@@ -47,7 +47,7 @@ manager:
     - towny.wild.build.minecraft:SUGAR_CANE
     - towny.wild.switch.minecraft:wooden_door
 
-
+LAVA,TNT,LAVA_BUCKET,piston
 
   g:admin:
     permissions:

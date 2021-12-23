@@ -7,6 +7,8 @@ groups:
 
   g:user:
     permissions:
+    - groupmanager.notify.self
+
     - essentials.help
     - essentials.helpop
     - essentials.jail.allow.help
@@ -16,12 +18,13 @@ groups:
     - essentials.motd
     - essentials.rules
     - essentials.spawn
-    - groupmanager.notify.self
-    
     - essentials.build.*
+    - -essentials.build.place.tnt
     
   g:builder:
     permissions:
+    - groupmanager.notify.self
+
     - essentials.afk
     - essentials.afk.auto
     - essentials.back
@@ -87,11 +90,12 @@ groups:
     - essentials.build.*
     - -essentials.build.place.33
     - -essentials.build.place.29
-    - -essentials.build.place.46
+    - -essentials.build.place.tnt
     - -essentials.build.place.137
 
   g:manager:
     permissions:
+    - groupmanager.notify.self
 
     - -essentials.spawner.enderdragon
     - essentials.afk.kickexempt
