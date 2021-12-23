@@ -6,7 +6,7 @@ users:
     permissions: []
   d584b21a-f2aa-4e62-afe4-a21eb0f3d028:
     lastname: SuRang_Volkov
-    group: user
+    group: owner
     subgroups: []
     permissions: []
   ElgarL:
