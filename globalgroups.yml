@@ -20,6 +20,17 @@ groups:
     - essentials.spawn
     - essentials.build.*
     - -essentials.build.place.tnt
+    - -essentials.build.place.sticky_piston
+    - -essentials.build.place.piston
+    - -essentials.build.place.lava_bucket
+    - -essentials.build.place.command_block
+
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.delhome
     
   g:builder:
     permissions:
@@ -88,10 +99,10 @@ groups:
     - essentials.worth
 
     - essentials.build.*
-    - -essentials.build.place.33
-    - -essentials.build.place.29
+    - -essentials.build.place.piston
+    - -essentials.build.place.sticky_piston
     - -essentials.build.place.tnt
-    - -essentials.build.place.137
+    - -essentials.build.place.command_block
 
   g:manager:
     permissions:
