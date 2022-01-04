@@ -202,4 +202,5 @@ groups:
 
   g:owner:
     permissions:
+    - essentials.build.*
     - '*'
