@@ -25,7 +25,7 @@
   data:
     save:
       # How often GroupManager will save it's data
-      minutes: 10
+      minutes: 30
       # Number of hours to retain backups (/plugins/GroupManager/backup)
       hours: 24
       
