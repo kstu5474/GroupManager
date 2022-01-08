@@ -25,6 +25,8 @@ groups:
     - -essentials.build.place.lava_bucket
     - -essentials.build.place.command_block
 
+    - essentials.tpa
+    - essentials.tpaccept
     - essentials.back
     - essentials.back.ondeath
     - essentials.home
@@ -202,5 +204,4 @@ groups:
 
   g:owner:
     permissions:
-    - essentials.build.*
     - '*'
